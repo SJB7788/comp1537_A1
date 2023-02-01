@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+#poutine_header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.poutine_header_nav {
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+    margin: 50px 0;
+    padding: 10px 0 10px 0;
+    font-size: 16pt;
+    border: 2px black solid;
+}
+
+#poutine_header_div {
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#poutine_main {
+    text-align: center;
+}
+
+#poutine_main_content {
+    display: flex;
+    justify-content: center;
+}
+
+.poutine_main_content_div {
+    width: 33%;
+}
+
+.poutine_main_content_div_img {
+    width: 100%;
+}
+
+#poutine_main_content_p {
+    padding: 0 20px 0 20px;
+}
+
+#poutine_main_content_h3 {
+    color: grey;
+}
+
+#poutine_footer {
+    width: 100%;
+    background-color: red;
+}
+
+#poutine_footer_div {
+    padding:40px 0 40px 0;
+    text-align: center;
+}
+
+#poutine_footer_h4 {
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+}
