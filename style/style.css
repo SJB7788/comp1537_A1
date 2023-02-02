@@ -29,6 +29,7 @@ a {
 }
 
 #poutine_header_div {
+    font-family: sans-serif;
     display: flex;
     justify-content: space-evenly;
 }
@@ -130,20 +131,24 @@ a {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
     #poutine_header_div {
         font-size: 9.5pt;
     }
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 650px){
     .poutine_header_nav {
         display: none;
     }
 
     #poutine_header_div {
         width: 100%;
-        font-size: 13pt;
+        font-size: 11pt;
+    }
+
+    #poutine_main_title {
+        font-size: 20pt;
     }
 
     #poutine_main_content {
